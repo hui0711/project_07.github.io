@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>彈跳球遊戲</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        #start {
+            display: block;
+            font-size: 1.1rem;
+            padding: 0.3rem 0.5rem;
+            margin-left: 1rem;
+            background-color: yellow;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="myCanvas" width="1000px" height="600px" style="background-color: black;"></canvas>
+    <button type="button" id="start" onclick="location.reload()">開始新遊戲</button>
+    <script src="./app.js"></script>
+</body>
+</html>
